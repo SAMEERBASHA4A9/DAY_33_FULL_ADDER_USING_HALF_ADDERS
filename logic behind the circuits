@@ -1,0 +1,10 @@
+In order to code an rtl by using its subblocks we have to understand the internal circuit first and then connect the sublocks with wires here 
+while full adder equation is S=A⊕B⊕C
+                             Carry Cout=(A⋅B)+(Cin⋅(A⊕B))
+
+HALF ADDER 
+S=A⊕B
+C=A⋅B
+
+SO to get the full adder with half adder 
+we have to connect the two half adders and carry output of 1st half adder and 2nd half adder is connected with or gate to get the carry 
